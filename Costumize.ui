@@ -1,0 +1,1862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1049</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: black;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>0</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>build/action cam/left_click.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>0</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>build/action cam/enventory.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>0</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>build/action cam/r_one_leg.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>build/action cam/drop.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>300</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>build/action cam/left click.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>300</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>build/action cam/crouch.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>300</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>build/action cam/hotbar.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>221</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>build/action cam/jump.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_8">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>560</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei Light</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: orange
+;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mouse Left Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>escape</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mouse Right Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Space</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Left Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Right Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>G</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>H</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>I</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>P</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Q</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>R</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>T</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>U</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_9">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>560</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei Light</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: orange
+;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mouse Left Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>escape</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mouse Right Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Space</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Left Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Right Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>G</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>H</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>I</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>P</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Q</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>R</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>T</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>U</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_10">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>560</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei Light</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: orange
+;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mouse Left Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>escape</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mouse Right Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Space</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Left Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Right Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>G</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>H</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>I</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>P</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Q</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>R</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>T</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>U</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_11">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>260</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei Light</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: orange
+;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mouse Left Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>escape</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mouse Right Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Space</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Left Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Right Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>G</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>H</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>I</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>P</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Q</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>R</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>T</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>U</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_12">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>260</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei Light</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: orange
+;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mouse Left Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>escape</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mouse Right Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Space</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Left Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Right Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>G</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>H</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>I</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>P</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Q</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>R</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>T</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>U</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_13">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>260</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei Light</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: orange
+;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mouse Left Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>escape</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mouse Right Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Space</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Left Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Right Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>G</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>H</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>I</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>P</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Q</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>R</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>T</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>U</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_14">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>260</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft JhengHei Light</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: orange
+;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mouse Left Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>tab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>escape</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mouse Right Click</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Space</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Left Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Right Shift</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>E</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>F</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>G</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>H</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>I</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>J</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>K</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>L</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>N</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>P</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Q</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>R</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>S</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>T</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>U</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>V</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>W</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>565</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffaa00;&quot;&gt;Mouse Scroll&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1049</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
