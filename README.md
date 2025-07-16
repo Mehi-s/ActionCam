@@ -53,8 +53,6 @@ Action Cam captures video from your webcam and uses the Mediapipe library to det
 
 The **Customize** menu allows you to define which gestures trigger specific actions:
 
-![Customize Menu](https://github.com/user-attachments/assets/a683a460-2f8e-4ab6-9312-a4effef28c2c)
-
 You can map various poses, such as raising your right hand, jumping, or sitting, to different keyboard keys or mouse clicks.
 
 ## Home Menu and Webcam View
